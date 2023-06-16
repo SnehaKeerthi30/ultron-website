@@ -1,0 +1,259 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#header{
+width: 100%;
+height: 100vh;
+background-image: url(image/up.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: .9;
+}
+
+#logo{
+    background-color: rgb(10, 10, 10,.6);
+    color: azure;
+    width: 100%;
+    height: 45px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+#chatbox{
+    width: 50px;
+    height: 50px;
+    margin-left: 79rem;
+    margin-top: 13rem;
+    position: fixed;
+    border-radius: 8px;
+}
+
+h1{
+    margin-left: 5px;
+}
+
+#login{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 30rem;
+    text-transform: capitalize;
+}
+#login:before{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    width: 100px;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: white;
+    transform-origin: right;
+    transition: 0.3s;
+}
+#login :hover :before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#about{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 6px;
+    text-transform: capitalize;
+}
+
+#contact{
+    font-size: 21.5px;
+    font-weight: bold;
+    margin-top: 6px;
+    text-transform: capitalize;
+}
+
+#quote{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 16rem;
+    padding-left: 30rem;
+    color: azure;
+    
+}
+
+#p{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-left: 15rem;
+    color: azure;
+    padding-top: 1rem;
+}
+
+#h4{
+    padding-top: 23px;
+    padding-left: 27rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#p1{
+    padding-left: 20rem;
+    padding-top: 15px;
+    font-size: 25px;
+}
+
+#center{
+    display: flex;
+    justify-content: space-between;
+}
+
+#img{
+    padding-top: 6rem;
+    padding-left: 7rem;
+}
+
+#center1{
+    padding-top: 9rem;
+    padding-left: 7rem;
+    font-size: 30px;
+}
+
+span{
+    padding-left: 19rem;
+}
+
+#center2{
+    padding-top: 9rem;
+    padding-left: 15rem;
+    font-size: 30px;
+}
+
+#center3{
+    padding-left: 15rem;
+    padding-top: 5rem;
+    font-size: 20px;
+}
+
+#imgeven{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    width: 100%;
+    height: 13rem;
+    margin-top: 4rem;
+}
+
+#list{
+    padding-top: 3rem;
+}
+
+#section1{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: azure;
+    width: 100%;
+    height: 22rem;
+    margin-top: 5rem;
+}
+
+#h3{
+    text-transform: capitalize;
+    padding-top: 4rem;
+    font-size: 30px;
+    margin-left: -200px;
+
+}
+
+#span2{
+    color: #f0175f;
+}
+
+#img1{
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#button{
+    width: 430px;
+    height: 30px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-transform: capitalize;
+    border: 1px solid white;
+    border-radius: 7px;
+    border-left: none;
+    border-right: none;
+}
+
+#div1{
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: center; */
+}
+
+#img2{
+    width: 450px; 
+    height: 300px;
+    margin-left: 9rem;
+    margin-top: 5rem;
+}
+
+#ch4{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 9rem;
+    margin-left: 8rem;
+}
+
+#f1{
+    margin-left: 36rem;
+    margin-top: 5rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#f2{
+    margin-left: 42rem;
+    margin-top: -1.5rem; 
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#f3{  
+    margin-left: 29rem;
+    font-size: 22px;
+    font-weight: bold;
+    width: 850px;
+    height: 40px;
+}
+

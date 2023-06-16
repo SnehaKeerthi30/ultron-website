@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#4b5251d0,#1b1818dc);     
+      
+}
+form{
+    width: 30rem;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.0);
+    box-shadow: 0 8px 32px 0 rgba(6, 9, 14, 0.719);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity: .7;
+}
+label{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: .8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+input{
+    width: 80%;
+    margin: 1% auto;
+    margin-bottom: 3%;
+    padding: 6px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    /*if u want ur input box as transparent use ths code*/
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    opacity: .8;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 20px;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px rgba(255,255,255,0.2);
+    box-shadow: 3px 3px 5px rgba(0,0,0,.2);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+ p{
+    color: white;
+    font-size: 15px;
+    margin-left: 8rem;
+}
+a{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    padding-left: .5rem;
+    
+} 

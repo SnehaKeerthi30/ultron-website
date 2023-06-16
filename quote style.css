@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+body{
+    background-image: url(image/quote\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh; 
+}
+#form{
+    width: 30rem;
+    height: 33rem;
+    background: linear-gradient(to right, rgb(71, 70, 70,.2)); /*50%,rgb(71, 70, 70,.5)50%*/
+    border-radius: 10px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+#h1{
+    padding-left: 8rem;
+    margin-top: 1rem;
+    color: white;
+}
+#label{
+    padding-left: 1rem;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    /* padding-top: rem; */
+    margin-top: 7px;
+}
+
+input{
+    border: 2px solid black; 
+    border-radius: 6px;
+    width: 27rem;
+    padding: 8px;
+    margin-top: 10px;
+}
+select{
+    border: 2px solid black; 
+    border-radius: 6px;
+    width: 27rem;
+    padding: 7px;
+    margin-top: 10px;
+}
+button{
+    width: 434px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-left: 11rem;
+    background-color: rgba(116, 94, 94, 0.651);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+

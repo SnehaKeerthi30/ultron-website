@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="msg style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!--user-->
+    <div id="container">
+        <p id="demo"></p>
+        <!-- bot -->
+        <p id="bot"></p>
+    </div>
+
+    <div id="chatbox">
+        <img src="person icon.jpg" alt="">
+        <input type="text" id="name" placeholder="Enter your queries">
+        <button onclick="validate()" i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+</body>
+
+<script>
+    function validate() {
+        var user = document.getElementById("name").value;
+
+        var element = document.createElement("li");
+
+        var text = document.createTextNode(user);
+        element.appendChild(text);
+
+        var myid = document.getElementById("demo");
+        myid.appendChild(element);
+        
+        document.getElementById("name").value = ""
+        if (user == "hey" || user == "hello") {
+            var bot = "Welcome to Ultron Apple Laptop Care!!! How can I help you?";
+
+            var element = document.createElement("li");
+
+            var text = document.createTextNode(bot);
+            element.appendChild(text);
+
+            var myid = document.getElementById("bot");
+            myid.appendChild(element);
+
+            // var brk=document.createElement("br");
+            // myid.appendChild(brk);
+
+            document.getElementById("name").value = ""
+        }
+        else if (user == "Do you provide service for all apple products?") {
+            var bot = "Yes! We provide service to all apple products with high qualified technicians"
+
+            var element = document.createElement("li");
+
+            var brk = document.createElement("br");
+
+            var text = document.createTextNode(bot);
+            element.appendChild(text);
+
+            var myid = document.getElementById("bot");
+            myid.appendChild(element);
+
+            document.getElementById("name").value = ""
+
+        }
+
+        else if (user == "How will I contact you?") {
+            var bot = "Please whatsup"
+
+            var element = document.createElement("li");
+
+            var text = document.createTextNode(bot);
+            element.appendChild(text);
+
+            var myid = document.getElementById("bot");
+            myid.appendChild(element);
+
+            document.getElementById("name").value = ""
+
+        }
+
+        else {
+            var bot = "Try asking something else";
+
+            var element = document.createElement("li");
+
+            var text = document.createTextNode(bot);
+            element.appendChild(text);
+
+            var myid = document.getElementById("bot");
+            myid.appendChild(element);
+
+            document.getElementById("name").value = ""
+        }
+
+    }
+</script>
+
+</html>
